@@ -124,6 +124,9 @@ h2{
         text-align: center;
     }
     footer{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
         margin-top: 15px;
         grid-area: Pie;
         padding: 10px;
@@ -133,6 +136,9 @@ h2{
         font-size: 20px;
         border:5px solid rgb(85, 41, 1);
         color: rgb(49, 25, 2);
+    }
+    .iconoMedialunas{
+        height: 60px;
     }
     
     .icono{
@@ -232,6 +238,23 @@ h2{
         from/*Inicio*/{
             /*Estilos*/
             transform: translateX(1000px);
+            opacity:0;
+        }
+    
+        to/*Final*/{
+            /*Estilos*/
+            transform: translateX(0);
+            opacity: 1;
+        } 
+    }
+    .iconosAnimadosFooter{
+        animation-name: icono;
+        animation-duration: 2s;
+    }
+    @keyframes icono{
+        from/*Inicio*/{
+            /*Estilos*/
+            transform: translateX(-1000px);
             opacity:0;
         }
     
@@ -355,6 +378,9 @@ h2{
         text-align: center;
     }
     footer{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
         margin-top: 15px;
         grid-area: Pie;
         padding: 10px;
@@ -364,6 +390,9 @@ h2{
         font-size: 20px;
         border:5px solid rgb(85, 41, 1);
         color: rgb(49, 25, 2);
+    }
+    .iconoMedialunas{
+        height: 60px;
     }
     
     .icono{
@@ -472,6 +501,23 @@ h2{
             opacity: 1;
         } 
     }
+    .iconosAnimadosFooter{
+        animation-name: icono;
+        animation-duration: 2s;
+    }
+    @keyframes icono{
+        from/*Inicio*/{
+            /*Estilos*/
+            transform: translateX(-1000px);
+            opacity:0;
+        }
+    
+        to/*Final*/{
+            /*Estilos*/
+            transform: translateX(0);
+            opacity: 1;
+        } 
+    }
 }
 
  
@@ -571,6 +617,7 @@ article{
     }
 .textomenu{
     text-decoration: none;
+    display: flex;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(85, 43, 4);
 }
@@ -584,6 +631,9 @@ main{
     text-align: center;
 }
 footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     margin-top: 15px;
     grid-area: Pie;
     padding: 10px;
@@ -594,7 +644,9 @@ footer{
     border:5px solid rgb(85, 41, 1);
     color: rgb(49, 25, 2);
 }
-
+.iconoMedialunas{
+    height: 60px;
+}
 .icono{
     border-radius: 300px;
     width: 200px;
@@ -694,6 +746,23 @@ border-radius: 100px;
     from/*Inicio*/{
         /*Estilos*/
         transform: translateX(1000px);
+        opacity:0;
+    }
+
+    to/*Final*/{
+        /*Estilos*/
+        transform: translateX(0);
+        opacity: 1;
+    } 
+}
+.iconosAnimadosFooter{
+    animation-name: icono;
+    animation-duration: 2s;
+}
+@keyframes icono{
+    from/*Inicio*/{
+        /*Estilos*/
+        transform: translateX(-1000px);
         opacity:0;
     }
 
